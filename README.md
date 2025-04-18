@@ -51,23 +51,24 @@
 <table>
   <tr>
     <td align="center" width="25%">
-      <img src="./images/member1.jpg" width="120px"><br><br>
+      <img src="./img/tt1.png" width="120px" height="120px"><br><br>
       <b>박슬기</b><br>
     </td>
     <td align="center" width="25%">
-      <img src="./images/member2.jpg" width="120px"><br><br>
+      <img src="./img/tt3.png" width="120px" height="120px"><br><br>
       <b>손현성</b><br>
     </td>
     <td align="center" width="25%">
-      <img src="./images/member3.jpg" width="120px"><br><br>
+      <img src="./img/tt4.png" width="120px" height="120px"><br><br>
       <b>이준배</b><br>
     </td>
     <td align="center" width="25%">
-      <img src="./images/member4.jpg" width="120px"><br><br>
+      <img src="./img/tt2.png" width="120px" height="120px"><br><br>
       <b>지상원</b><br>
     </td>
   </tr>
 </table>
+
 
 </div>
 
