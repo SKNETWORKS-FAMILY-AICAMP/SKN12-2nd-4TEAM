@@ -81,6 +81,16 @@
 
 ---
 
+### ✅ ERD(Entity Relationship Diagram)
+
+> mysql 테이블 간의 관계를 시각화한 ERD입니다.
+
+<div align="center">
+  <img src="./img/erd.png" width="70%" alt="ERD 다이어그램">
+</div>
+
+---
+
 ## 📸 UI 사전 구성 이미지
 
 
