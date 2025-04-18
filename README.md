@@ -41,7 +41,7 @@
 **WeightedEnsemble_L2** 모델이 가장 높은 성능을 보였으며, 테스트 데이터셋에서 **정확도 96.37%**를 기록했습니다.  
 모델의 성능을 평가하기 위해 **정밀도**, **재현율**, **F1-score** 등을 고려하였고,  
 **WeightedEnsemble_L2**는 모든 평가 지표에서 우수한 성과를 보였습니다.
-**WeightedEnsemble_L2**를 **cross_validation** 을 통해 데이터를 **5분활** 한 후 5번 평가하고 평균을 내었습니다.
+**WeightedEnsemble_L2**를 **cross_validation** 을 통해 데이터를 **5분할할** 한 후 5번 평가하고 평균을 내었습니다.
 
 ---
 
@@ -105,7 +105,7 @@
 ---
 
 
-## 📸 UI 사전 구성 이미지
+## 📸 UI 사전 구성 이미지(화면 설계서)
 
 
 | ![ppt1](./img/ppt1.png) | ![ppt2](./img/ppt2.png) | ![ppt3](./img/ppt3.png) | ![ppt4](./img/ppt4.png) |
