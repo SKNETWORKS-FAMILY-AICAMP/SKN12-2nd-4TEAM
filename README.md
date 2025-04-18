@@ -27,17 +27,18 @@
 ## 📄 데이터 출처
 이 프로젝트에서 사용한 데이터는 **Kaggle**에서 제공하는 **Gym Churn Dataset**입니다.  
 이 데이터셋은 헬스장의 고객 데이터를 포함하고 있으며, 고객의 기본 정보, 운동 방문 기록,  
-회원권 종류, 그리고 이탈 여부를 포함합니다.
+그리고 이탈 여부를 포함합니다.
 
-[👉 Kaggle Gym Churn Dataset 바로가기](https://www.kaggle.com/datasets)
+[👉 Kaggle Gym Churn Dataset 바로가기](https://www.kaggle.com/datasets/adrianvinueza/gym-customers-features-and-churn)
+
 
 ---
 
 ## 🧪 모델 성능
 이 프로젝트에서 사용한 **머신러닝 모델**은 여러 가지 분류 모델을 비교하여 최적의 모델을 선정했습니다.  
-**XGBoost** 모델이 가장 높은 성능을 보였으며, 테스트 데이터셋에서 **정확도 85%**를 기록했습니다.  
+**WeightedEnsemble_L2** 모델이 가장 높은 성능을 보였으며, 테스트 데이터셋에서 **정확도 85%**를 기록했습니다.  
 모델의 성능을 평가하기 위해 **정밀도**, **재현율**, **F1-score** 등을 고려하였고,  
-**XGBoost**는 모든 평가 지표에서 우수한 성과를 보였습니다.
+**WeightedEnsemble_L2**는 모든 평가 지표에서 우수한 성과를 보였습니다.
 
 ---
 
@@ -49,22 +50,22 @@
   <tr>
     <td align="center" width="25%">
       <img src="./images/member1.jpg" width="120px"><br><br>
-      <b>김OO</b><br>
+      <b>박슬기</b><br>
       데이터 전처리 & EDA
     </td>
     <td align="center" width="25%">
       <img src="./images/member2.jpg" width="120px"><br><br>
-      <b>박OO</b><br>
+      <b>손현성</b><br>
       모델링 & AutoML
     </td>
     <td align="center" width="25%">
       <img src="./images/member3.jpg" width="120px"><br><br>
-      <b>이OO</b><br>
+      <b>이준배</b><br>
       웹 개발 (Streamlit)
     </td>
     <td align="center" width="25%">
       <img src="./images/member4.jpg" width="120px"><br><br>
-      <b>최OO</b><br>
+      <b>지상원원</b><br>
       기획 & 시각화
     </td>
   </tr>
@@ -79,7 +80,6 @@
 - **라이브러리**: pandas, numpy, matplotlib, seaborn, scikit-learn, AutoGluon  
 - **웹 프레임워크**: Streamlit  
 - **DB**: MySQL  
-- **협업**: Git, GitHub, Notion
 
 ---
 
