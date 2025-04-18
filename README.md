@@ -52,10 +52,18 @@
       모델링 & AutoML
     </td>
     <td align="center" width="25%">
-      <img src="./지
+      <img src="./images/member3.jpg" width="120px"><br><br>
+      <b>이하람</b><br>
+      웹 개발 (Streamlit)
+    </td>
+    <td align="center" width="25%">
+      <img src="./images/member4.jpg" width="120px"><br><br>
+      <b>최예린</b><br>
+      기획 & 시각화
+    </td>
+  </tr>
+</table>
 
-<div align="center">
-  <img src="./images/streamlit_app.png" width="60%" alt="Streamlit 앱 이미지">
 </div>
 
 ---
@@ -78,11 +86,11 @@
 
 ---
 
-## 🪞 한 줄 회고 🧠💬
-
-> 🧹 **김OO**: "데이터 전처리가 얼마나 중요한지 체감했습니다."  
-> 🤖 **박OO**: "AutoML로도 충분히 좋은 성능을 낼 수 있단 걸 배웠어요!"  
-> 💻 **이OO**: "처음 해본 Streamlit 개발이 정말 재미있었습니다."  
-> 📊 **최OO**: "협업의 힘을 느낄 수 있었던 소중한 경험이었습니다."
+## 📷 주요 화면 예시
+| 고객 이탈 예측 | 대시보드 예시 |
+|----------------|---------------|
+| ![예측 화면](./images/predict.png) | ![대시보드 화면](./images/dashboard.png) |
 
 ---
+
+
