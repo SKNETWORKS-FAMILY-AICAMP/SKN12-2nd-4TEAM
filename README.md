@@ -36,7 +36,7 @@
 
 ## 🧪 모델 성능
 이 프로젝트에서 사용한 **머신러닝 모델**은 여러 가지 분류 모델을 비교하여 최적의 모델을 선정했습니다.  
-**WeightedEnsemble_L2** 모델이 가장 높은 성능을 보였으며, 테스트 데이터셋에서 **정확도 85%**를 기록했습니다.  
+**WeightedEnsemble_L2** 모델이 가장 높은 성능을 보였으며, 테스트 데이터셋에서 **정확도 96.37%**를 기록했습니다.  
 모델의 성능을 평가하기 위해 **정밀도**, **재현율**, **F1-score** 등을 고려하였고,  
 **WeightedEnsemble_L2**는 모든 평가 지표에서 우수한 성과를 보였습니다.
 
@@ -51,22 +51,18 @@
     <td align="center" width="25%">
       <img src="./images/member1.jpg" width="120px"><br><br>
       <b>박슬기</b><br>
-      데이터 전처리 & EDA
     </td>
     <td align="center" width="25%">
       <img src="./images/member2.jpg" width="120px"><br><br>
       <b>손현성</b><br>
-      모델링 & AutoML
     </td>
     <td align="center" width="25%">
       <img src="./images/member3.jpg" width="120px"><br><br>
       <b>이준배</b><br>
-      웹 개발 (Streamlit)
     </td>
     <td align="center" width="25%">
       <img src="./images/member4.jpg" width="120px"><br><br>
-      <b>지상원원</b><br>
-      기획 & 시각화
+      <b>지상원</b><br>
     </td>
   </tr>
 </table>
@@ -98,13 +94,13 @@
 - 상관관계 시각화 (heatmap 등)
 
 <div align="center">
-  <img src="./img/feature_importance.png" width="60%" alt="EDA 분석 이미지">
+  <img src="./img/feature_importance.png" width="60%" alt="피처 중요도">
 </div>
 <div align="center">
-  <img src="./img/label01grap.png" width="60%" alt="EDA 분석 이미지">
+  <img src="./img/label01grap.png" width="60%" alt="이탈 분포">
 </div>
 <div align="center">
-  <img src="./img/heatmap_pearson.png" width="60%" alt="EDA 분석 이미지">
+  <img src="./img/heatmap_pearson.png" width="60%" alt="피처 히트맵">
 </div>
 
 ### 3. 머신러닝 모델링 🤖📈
@@ -112,10 +108,20 @@
 - 평가
 
 <div align="center">
-  <img src="./images/machine_learning.png" width="60%" alt="머신러닝 모델링 이미지">
+  <img src="./img/leaderboard.png" width="60%" alt="머신러닝 모델 선택">
+</div>
+<div align="center">
+  <img src="./img/modelscore.png" width="60%" alt="머신러닝 평가가">
 </div>
 
-### 4. Streamlit 웹 앱 구현 🌐🖥️
+### 4. 예측 🤖📈
+- 예측 및 분류류
+
+<div align="center">
+  <img src="./img/pred.png" width="60%" alt="예측 코드">
+</div>
+
+### 5. Streamlit 웹 앱 구현 🌐🖥️
 - 위험도별 고객 분류 및 카운트
 - 각종 그래프 제공
 - 이벤트 및 퀘스트 페이지지
@@ -159,13 +165,6 @@
 | `class_freq_change` | 수업 참가 횟수 변화량 (`이번달 - 전체`) | float | -0.5 |
 | `contract_ending_soon` | 계약 만료 임박 여부 (1개월 이하: 1, 그 외: 0) | int | 1 |
 | `social_connected_ratio` | 사회적 연결 비율 (`합 / 3`) | float | 0.67 |
-
----
-
-## 📷 주요 화면 예시
-| 고객 이탈 예측 | 대시보드 예시 |
-|----------------|---------------|
-| ![예측 화면](./images/predict.png) | ![대시보드 화면](./images/dashboard.png) |
 
 ---
 
