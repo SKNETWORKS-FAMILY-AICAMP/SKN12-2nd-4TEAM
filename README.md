@@ -1,4 +1,3 @@
-# SKN12-2nd-4TEAM
 # 🏋️‍♂️ 헬스장 고객 이탈 분석 프로젝트 ✨🔥💻
 
 ## 📌 프로젝트 개요
@@ -16,22 +15,22 @@
   
 <table>
   <tr>
-    <td align="center">
+    <td align="center" width="25%">
       <img src="./images/member1.jpg" width="120px"><br><br>
       <b>김OO</b><br>
       데이터 전처리 & EDA
     </td>
-    <td align="center">
+    <td align="center" width="25%">
       <img src="./images/member2.jpg" width="120px"><br><br>
       <b>박OO</b><br>
       모델링 & AutoML
     </td>
-    <td align="center">
+    <td align="center" width="25%">
       <img src="./images/member3.jpg" width="120px"><br><br>
       <b>이OO</b><br>
       웹 개발 (Streamlit)
     </td>
-    <td align="center">
+    <td align="center" width="25%">
       <img src="./images/member4.jpg" width="120px"><br><br>
       <b>최OO</b><br>
       기획 & 시각화
@@ -53,22 +52,39 @@
 ---
 
 ## 🧪 분석 과정 및 결과
+
 ### 1. 데이터 수집 및 전처리 📂🧹
 - 결측치 처리 및 이상치 제거
 - 범주형 변수 인코딩 및 스케일링
+
+<div align="center">
+  <img src="./images/data_preprocessing.png" width="60%" alt="데이터 전처리 이미지">
+</div>
 
 ### 2. EDA(탐색적 데이터 분석) 📊🔍
 - 고객 분포 및 이탈률 분석
 - 상관관계 시각화 (heatmap 등)
 
+<div align="center">
+  <img src="./images/eda_analysis.png" width="60%" alt="EDA 분석 이미지">
+</div>
+
 ### 3. 머신러닝 모델링 🤖📈
 - 분류 모델 비교 (RandomForest, XGBoost, AutoML 등)
 - 최적 모델 선정 및 성능 평가
+
+<div align="center">
+  <img src="./images/machine_learning.png" width="60%" alt="머신러닝 모델링 이미지">
+</div>
 
 ### 4. Streamlit 웹 앱 구현 🌐🖥️
 - 고객 정보 입력 → 이탈 예측 결과 출력
 - 이탈률 대시보드 제공
 - DB 연동 기능 구현
+
+<div align="center">
+  <img src="./images/streamlit_app.png" width="60%" alt="Streamlit 앱 이미지">
+</div>
 
 ---
 
@@ -111,4 +127,3 @@
 > 팀 이메일: team4gym@naver.com
 
 ---
-
