@@ -34,6 +34,13 @@
 ---
 
 
+## 🧪 모델 성능
+이 프로젝트에서 사용한 **머신러닝 모델**은 여러 가지 분류 모델을 비교하여 최적의 모델을 선정했습니다.  
+**WeightedEnsemble_L2** 모델이 가장 높은 성능을 보였으며, 테스트 데이터셋에서 **정확도 85%**를 기록했습니다.  
+모델의 성능을 평가하기 위해 **정밀도**, **재현율**, **F1-score** 등을 고려하였고,  
+**WeightedEnsemble_L2**는 모든 평가 지표에서 우수한 성과를 보였습니다.
+
+---
 
 ## 👨‍👩‍👧‍👦 팀원 소개
 
@@ -42,28 +49,10 @@
 <table>
   <tr>
     <td align="center" width="25%">
-      <img src="./images/member1.jpg" width="120px"><br><br>
-      <b>박슬기</b><br>
-      데이터 전처리 & EDA
-    </td>
-    <td align="center" width="25%">
-      <img src="./images/member2.jpg" width="120px"><br><br>
-      <b>손현성</b><br>
-      모델링 & AutoML
-    </td>
-    <td align="center" width="25%">
-      <img src="./images/member3.jpg" width="120px"><br><br>
-      <b>이하람</b><br>
-      웹 개발 (Streamlit)
-    </td>
-    <td align="center" width="25%">
-      <img src="./images/member4.jpg" width="120px"><br><br>
-      <b>최예린</b><br>
-      기획 & 시각화
-    </td>
-  </tr>
-</table>
+      <img src=지
 
+<div align="center">
+  <img src="./images/streamlit_app.png" width="60%" alt="Streamlit 앱 이미지">
 </div>
 
 ---
