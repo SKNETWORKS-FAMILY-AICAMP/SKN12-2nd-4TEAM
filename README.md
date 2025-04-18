@@ -27,9 +27,9 @@
 ## 📄 데이터 출처
 이 프로젝트에서 사용한 데이터는 **Kaggle**에서 제공하는 **Gym Churn Dataset**입니다.  
 이 데이터셋은 헬스장의 고객 데이터를 포함하고 있으며, 고객의 기본 정보, 운동 방문 기록,  
-회원권 종류, 그리고 이탈 여부를 포함합니다.
+그리고 이탈 여부를 포함합니다.
 
-[👉 Kaggle Gym Churn Dataset 바로가기](https://www.kaggle.com/datasets)
+[👉 Kaggle Gym Churn Dataset 바로가기]([https://www.kaggle.com/datasets](https://www.kaggle.com/datasets/adrianvinueza/gym-customers-features-and-churn))
 
 ---
 
