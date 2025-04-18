@@ -86,11 +86,11 @@
 ## 🧪 분석 과정 및 결과
 
 ### 1. 데이터 수집 및 전처리 📂🧹
-- 결측치 처리 및 이상치 제거
-- 범주형 변수 인코딩 및 스케일링
+- 피처 엔지니어링
+- 스케일링 및 스플릿
 
 <div align="center">
-  <img src="./images/data_preprocessing.png" width="60%" alt="데이터 전처리 이미지">
+  <img src="./img/datafeaturing.png" width="60%" alt="데이터 전처리 이미지">
 </div>
 
 ### 2. EDA(탐색적 데이터 분석) 📊🔍
@@ -98,7 +98,10 @@
 - 상관관계 시각화 (heatmap 등)
 
 <div align="center">
-  <img src="./images/eda_analysis.png" width="60%" alt="EDA 분석 이미지">
+  <img src="./img/label01grap.png" width="60%" alt="EDA 분석 이미지">
+</div>
+<div align="center">
+  <img src="./img/heatmap_pearson.png" width="60%" alt="EDA 분석 이미지">
 </div>
 
 ### 3. 머신러닝 모델링 🤖📈
