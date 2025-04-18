@@ -94,9 +94,12 @@
 </div>
 
 ### 2. EDA(탐색적 데이터 분석) 📊🔍
-- 고객 분포 및 이탈률 분석
+- 고객 분포 피처 중요도
 - 상관관계 시각화 (heatmap 등)
 
+<div align="center">
+  <img src="./img/feature_importance.png" width="60%" alt="EDA 분석 이미지">
+</div>
 <div align="center">
   <img src="./img/label01grap.png" width="60%" alt="EDA 분석 이미지">
 </div>
@@ -105,17 +108,17 @@
 </div>
 
 ### 3. 머신러닝 모델링 🤖📈
-- 분류 모델 비교 (RandomForest, XGBoost, AutoML 등)
-- 최적 모델 선정 및 성능 평가
+- 모델 선택 및 학습
+- 평가
 
 <div align="center">
   <img src="./images/machine_learning.png" width="60%" alt="머신러닝 모델링 이미지">
 </div>
 
 ### 4. Streamlit 웹 앱 구현 🌐🖥️
-- 고객 정보 입력 → 이탈 예측 결과 출력
-- 이탈률 대시보드 제공
-- DB 연동 기능 구현
+- 위험도별 고객 분류 및 카운트
+- 각종 그래프 제공
+- 이벤트 및 퀘스트 페이지지
 
 <div align="center">
   <img src="./images/streamlit_app.png" width="60%" alt="Streamlit 앱 이미지">
@@ -123,14 +126,39 @@
 
 ---
 
+
 ## 📄 데이터 컬럼 설명 페이지
-[👉 데이터 컬럼 설명 바로가기](./pages/columns.md)  
-> 각 컬럼의 의미, 데이터 타입, 예시값 등을 정리한 문서입니다.  
-> 예:  
-> - `customer_id`: 고객 고유 ID (예: C001)  
-> - `membership_type`: 회원권 종류 (Basic / Premium 등)  
-> - `visit_count`: 최근 한 달간 방문 횟수  
-> - `churn`: 이탈 여부 (0: 유지, 1: 이탈)  
+
+### ✅ 원본 데이터 컬럼
+
+| 컬럼명 | 설명 | 타입 | 예시값 |
+|--------|------|------|--------|
+| `gender` | 성별 (여자 0 / 남자 1) | int | 1 |
+| `Near_Location` | 헬스장과의 거리 (멀다 0 / 가깝다 1) | int | 1 |
+| `Partner` | 회사 할인 여부 (개인 0 / 할인 1) | int | 0 |
+| `Promo_friends` | 지인 소개 여부 (없음 0 / 있음 1) | int | 1 |
+| `Phone` | 연락처 제공 여부 (미제공 0 / 제공 1) | int | 1 |
+| `Contract_period` | 계약 기간 (월 단위) | int | 12 |
+| `Group_visits` | 그룹 세션 참여 여부 (No 0 / Yes 1) | int | 1 |
+| `Age` | 나이 | int | 29 |
+| `Avg_additional_charges_total` | 총 추가 요금 평균 | float | 55.6 |
+| `Month_to_end_contract` | 계약 종료까지 남은 개월 수 | float | 1.0 |
+| `Lifetime` | 총 헬스장 이용 기간 (개월 수) | int | 9 |
+| `Avg_class_frequency_total` | 평균 수업 참가 횟수 | float | 2.3 |
+| `Avg_class_frequency_current_month` | 이달 평균 수업 참가 횟수 | float | 1.8 |
+
+---
+
+### 🧠 파생 변수 (Feature Engineering)
+
+| 컬럼명 | 설명 | 타입 | 예시값 |
+|--------|------|------|--------|
+| `social_connected` | 사회적 연결 수준 (`Partner + Promo_friends + Group_visits`) | int | 2 |
+| `avg_monthly_add_charge` | 평균 월별 추가 요금 (`추가요금 / (이용기간+1)`) | float | 5.05 |
+| `class_freq_ratio` | 수업 참가 비율 변화 (`이번달 / 전체 평균`) | float | 0.78 |
+| `class_freq_change` | 수업 참가 횟수 변화량 (`이번달 - 전체`) | float | -0.5 |
+| `contract_ending_soon` | 계약 만료 임박 여부 (1개월 이하: 1, 그 외: 0) | int | 1 |
+| `social_connected_ratio` | 사회적 연결 비율 (`합 / 3`) | float | 0.67 |
 
 ---
 
@@ -143,22 +171,11 @@
 
 ## 🪞 한 줄 회고 🧠💬
 
-> 🧹 **김OO**: "데이터 전처리가 얼마나 중요한지 체감했습니다."  
-> 🤖 **박OO**: "AutoML로도 충분히 좋은 성능을 낼 수 있단 걸 배웠어요!"  
-> 💻 **이OO**: "처음 해본 Streamlit 개발이 정말 재미있었습니다."  
-> 📊 **최OO**: "협업의 힘을 느낄 수 있었던 소중한 경험이었습니다."
+> 🧹 **박슬기**: "데이터 전처리가 얼마나 중요한지 체감했습니다."  
+> 🤖 **손현성**: "AutoML로도 충분히 좋은 성능을 낼 수 있단 걸 배웠어요!"  
+> 💻 **이준배**: "처음 해본 Streamlit 개발이 정말 재미있었습니다."  
+> 📊 **지상원**: "협업의 힘을 느낄 수 있었던 소중한 경험이었습니다."
 
 ---
 
-## 🔗 출처 및 참고 링크
-- 📘 [Kaggle Gym Churn Dataset](https://www.kaggle.com/datasets) (사용한 데이터셋 출처)
-- 📘 [Streamlit 공식 문서](https://docs.streamlit.io/)
-- 📘 [AutoGluon 공식 GitHub](https://github.com/autogluon/autogluon)
 
----
-
-## 📮 Contact
-> 궁금한 점이나 피드백은 언제든지 환영입니다!  
-> 팀 이메일: team4gym@naver.com
-
----
