@@ -29,7 +29,7 @@
 이 데이터셋은 헬스장의 고객 데이터를 포함하고 있으며, 고객의 기본 정보, 운동 방문 기록,  
 그리고 이탈 여부를 포함합니다.
 
-[👉 Kaggle Gym Churn Dataset 바로가기]([https://www.kaggle.com/datasets](https://www.kaggle.com/datasets/adrianvinueza/gym-customers-features-and-churn))
+[👉 Kaggle Gym Churn Dataset 바로가기](https://www.kaggle.com/datasets/adrianvinueza/gym-customers-features-and-churn)
 
 ---
 
@@ -43,77 +43,16 @@
   <tr>
     <td align="center" width="25%">
       <img src="./images/member1.jpg" width="120px"><br><br>
-      <b>김OO</b><br>
+      <b>박슬기</b><br>
       데이터 전처리 & EDA
     </td>
     <td align="center" width="25%">
       <img src="./images/member2.jpg" width="120px"><br><br>
-      <b>박OO</b><br>
+      <b>손현성</b><br>
       모델링 & AutoML
     </td>
     <td align="center" width="25%">
-      <img src="./images/member3.jpg" width="120px"><br><br>
-      <b>이OO</b><br>
-      웹 개발 (Streamlit)
-    </td>
-    <td align="center" width="25%">
-      <img src="./images/member4.jpg" width="120px"><br><br>
-      <b>최OO</b><br>
-      기획 & 시각화
-    </td>
-  </tr>
-</table>
-
-</div>
-
----
-
-## 🛠️ 사용 기술 스택 ⚙️📊🧠
-- **언어**: Python 3.x  
-- **라이브러리**: pandas, numpy, matplotlib, seaborn, scikit-learn, AutoGluon  
-- **웹 프레임워크**: Streamlit  
-- **DB**: MySQL  
-- **협업**: Git, GitHub, Notion
-
----
-
-## 🧪 분석 과정 및 결과
-
-### 1. 데이터 수집 및 전처리 📂🧹
-- 결측치 처리 및 이상치 제거
-- 범주형 변수 인코딩 및 스케일링
-
-<div align="center">
-  <img src="./images/data_preprocessing.png" width="60%" alt="데이터 전처리 이미지">
-</div>
-
-### 2. EDA(탐색적 데이터 분석) 📊🔍
-- 고객 분포 및 이탈률 분석
-- 상관관계 시각화 (heatmap 등)
-
-<div align="center">
-  <img src="./images/eda_analysis.png" width="60%" alt="EDA 분석 이미지">
-</div>
-
-### 3. 머신러닝 모델링 🤖📈
-- 분류 모델 비교 (RandomForest, XGBoost, AutoML 등)
-- 최적 모델 선정 및 성능 평가
-
-<div align="center">
-  <img src="./images/machine_learning.png" width="60%" alt="머신러닝 모델링 이미지">
-</div>
-
-## 4.🧪 모델 성능
-이 프로젝트에서 사용한 **머신러닝 모델**은 여러 가지 분류 모델을 비교하여 최적의 모델을 선정했습니다.  
-**XGBoost** 모델이 가장 높은 성능을 보였으며, 테스트 데이터셋에서 **정확도 85%**를 기록했습니다.  
-모델의 성능을 평가하기 위해 **정밀도**, **재현율**, **F1-score** 등을 고려하였고,  
-**XGBoost**는 모든 평가 지표에서 우수한 성과를 보였습니다.
-
-
-### 5. Streamlit 웹 앱 구현 🌐🖥️
-- 고객 정보 입력 → 이탈 예측 결과 출력
-- 이탈률 대시보드 제공
-- DB 연동 기능 구현
+      <img src="./지
 
 <div align="center">
   <img src="./images/streamlit_app.png" width="60%" alt="Streamlit 앱 이미지">
@@ -145,18 +84,5 @@
 > 🤖 **박OO**: "AutoML로도 충분히 좋은 성능을 낼 수 있단 걸 배웠어요!"  
 > 💻 **이OO**: "처음 해본 Streamlit 개발이 정말 재미있었습니다."  
 > 📊 **최OO**: "협업의 힘을 느낄 수 있었던 소중한 경험이었습니다."
-
----
-
-## 🔗 출처 및 참고 링크
-- 📘 [Kaggle Gym Churn Dataset](https://www.kaggle.com/datasets) (사용한 데이터셋 출처)
-- 📘 [Streamlit 공식 문서](https://docs.streamlit.io/)
-- 📘 [AutoGluon 공식 GitHub](https://github.com/autogluon/autogluon)
-
----
-
-## 📮 Contact
-> 궁금한 점이나 피드백은 언제든지 환영입니다!  
-> 팀 이메일: team4gym@naver.com
 
 ---
