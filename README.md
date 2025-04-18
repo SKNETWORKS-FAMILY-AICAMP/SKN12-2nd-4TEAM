@@ -197,7 +197,7 @@
   <img src="./img/modelscore.png" width="60%" alt="머신러닝 평가가">
 </div>
 <div align="center">
-  <img src="./산출물/학습결과/model_result.png" width="60%" alt="머신러닝 모델 비교">
+  <img src="./산출물/학습결과/models_result.png" width="60%" alt="머신러닝 모델 비교">
 </div>
 
 ### 4. 예측 🤖📈
